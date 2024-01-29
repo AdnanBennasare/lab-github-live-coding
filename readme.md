@@ -10,11 +10,6 @@ gh auth login
 ```
 
 ```
-gh auth login
-
-```
-
-```
 gh repo clone owner/repo
 
 ```
@@ -39,5 +34,9 @@ git push origin feature-branch
 ```
 gh pr create --base main --head feature-branch --title "Your pull request title" --body "Your pull request description"
 
+```
+
+```
+gh pr close <pull-request-number>
 
 ```
